@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   const apiUrl = "https://tgt-commerce-server.herokuapp.com/api/products";
 
-  const [listApi,setListApi] = useState([null]);
+  const [listApi,setListApi] = useState([]);
 
   const getApi = () => {
     axios(apiUrl)
