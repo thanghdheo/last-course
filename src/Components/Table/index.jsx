@@ -21,7 +21,7 @@ Tablee.defaultProps = {
 function Tablee(props) {
     const {apiList,onHandleDelete,onHandleUpdate} = props;
 
-    const [title,setTitle] = useState([apiList[0] ?[...Object.keys(apiList[0])] : []]);
+    const [title,setTitle] = useState([]);
 
     const tempt = useRef({});
 
