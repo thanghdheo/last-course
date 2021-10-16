@@ -1,0 +1,15 @@
+.table{
+    width: 100%;
+    margin: 0 auto;
+    &_row{
+        cursor: pointer;
+        &_button{
+            display: none;
+        }
+    }
+   
+    &_row:hover > td >.table_row_button {
+        display: block;
+    }
+}
+
