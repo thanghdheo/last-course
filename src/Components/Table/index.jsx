@@ -1,7 +1,6 @@
-import React, { useEffect,useRef} from 'react';
+import React, { useEffect,useRef,useState } from 'react';
 import PropTypes from 'prop-types';
 import { Button, Table } from 'reactstrap';
-import { useState } from 'react/cjs/react.development';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Table.scss'
 
